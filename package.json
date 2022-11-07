@@ -16,7 +16,8 @@
 	"author": "Paweł Urasiński",
 	"license": "ISC",
 	"dependencies": {
-		"node-fetch": "^2.6.7"
+		"node-fetch": "^2.6.7",
+		"tar-fs": "^2.1.1"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.18.6",
