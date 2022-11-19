@@ -4,19 +4,20 @@
 		"commonjs": true,
 		"es2021": true
 	},
-	"extends": ["airbnb-base", "plugin:prettier/recommended"],
-	"prettier/prettier": [
-		"error",
-		{
-		  "singleQuote": true,
-		  "parser": "flow"
-		}
-	  ],
+	"extends": ["eslint:recommended", "airbnb-base", "plugin:prettier/recommended"],
+
 	"plugins": ["prettier"],
 	"parserOptions": {
 		"ecmaVersion": "latest"
 	},
 	"rules": {
-		"prettier/prettier": "error"
+		"no-restricted-syntax": ["error", "FunctionExpression", "WithStatement", "BinaryExpression[operator='in']"],
+		"prettier/prettier": [
+			"error",
+			{
+				"singleQuote": true,
+				"parser": "flow"
+			}
+		]
 	}
 }
