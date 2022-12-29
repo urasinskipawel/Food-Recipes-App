@@ -16,6 +16,7 @@
 	"author": "Paweł Urasiński",
 	"license": "ISC",
 	"dependencies": {
+		"dotenv": "^16.0.3",
 		"node-fetch": "^2.6.7",
 		"tar-fs": "^2.1.1"
 	},
@@ -26,9 +27,9 @@
 		"@types/node-fetch": "^2.6.2",
 		"eslint": "^8.23.1",
 		"eslint-config": "^0.1.0",
-		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-config-airbnb-base": "^14.2.1",
 		"eslint-config-prettier": "^8.5.0",
-		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-import": "^2.24.1",
 		"eslint-plugin-prettier": "^4.2.1",
 		"prettier": "2.7.1"
 	}

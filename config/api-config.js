@@ -6,14 +6,13 @@ const apiConnection = async (userData) => {
   const apiOptions = {
     method: 'GET',
     headers: {
-      'X-RapidAPI-Key': 'fb74600af7msh728ebd26d531521p1a6225jsnb02121fe9dae',
+      'X-RapidAPI-Key': process.env.API_KEY,
       'X-RapidAPI-Host': 'tasty.p.rapidapi.com',
     },
   };
 
   const apiResponse = await fetch(apiUrl, apiOptions);
   const apiData = await apiResponse.json();
-  // console.log(apiData);
 
   return apiData;
 };

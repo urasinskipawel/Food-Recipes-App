@@ -1,3 +1,5 @@
+require('dotenv').config({ path: '.env' });
+
 const { join } = require('path');
 const { apiConnection } = require('./config/api-config');
 const { questionToUser } = require('./integration/console-interface');
