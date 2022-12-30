@@ -51,7 +51,7 @@ $ node index.js **ingredient** (e.g. **pasta, rice, chicken**)
 
 > Test the App
 
-If you want to test the application, please [contact me](uraspawel@gmail.com) for an API key
+If you want to test the application, please email me at: uraspawel@gmail.com for an API key
 
 ## Screenshots <a name="screenshots"/> 🖵
 
